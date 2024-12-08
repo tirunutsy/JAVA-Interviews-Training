@@ -13,7 +13,7 @@ public class FibonacciSeries {
 		while(i <= n) {
 //			Since We have already Printed Default fibonacci numbers 0 and 1 Now we can just start with 1 (or) i as 0+1=1 
 			System.out.print(" "+i);
-//			Now we are swapping the Values : Now A becomes B(a=b), i(Current Value) becomes B(b=i) And Then i stores both these two numbers(A & B) as new Fibonacci Number and Prints it in the next loop 
+//			Now we are swapping the Values : Now B becomes A(a=b), i(Current Value) becomes B(b=i) And Then i stores both these two numbers(A & B) as new Fibonacci Number and Prints it in the next loop 
 			a = b;
 			b = i;
 			i = a+b;
